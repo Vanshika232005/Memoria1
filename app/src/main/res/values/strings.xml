@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memoria</string>
+
+    <!-- Who's Who Game Strings -->
+    <string name="points_display">Total Points: %1$d (Today: %2$d)</string>
+    <string name="streak_display">Current Streak: %d days</string>
+    <string name="question_number">Question %1$d of %2$d</string>
+    <string name="next_question">Next</string>
+    <string name="finish_quiz">Finish</string>
+    <string name="score_display">Your score: %1$d/%2$d (%3$d%%)</string>
+    <string name="points_earned">Points earned: %d</string>
+
+    <!-- Category arrays for spinner -->
+    <string-array name="categories_array">
+        <item>Family</item>
+        <item>Friends</item>
+        <item>Relatives</item>
+    </string-array>
+</resources>
