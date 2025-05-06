@@ -25,6 +25,7 @@
         <activity android:name=".WhosWhoQuizActivity" />
         <activity android:name=".WhosWhoResultActivity" />
         <activity android:name=".AddItemActivity" />
+        <activity android:name=".AddPeople" />
 
     </application>
 

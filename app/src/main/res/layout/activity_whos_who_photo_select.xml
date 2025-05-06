@@ -130,18 +130,22 @@
         android:textStyle="bold"
         android:layout_marginBottom="8dp" />
 
-    <ListView
-        android:id="@+id/peopleListView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/peopleRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginBottom="16dp" />
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
 
     <Button
         android:id="@+id/doneButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Done"
-        android:textSize="16sp" />
+        android:text="Done"/>
 
 </LinearLayout>
